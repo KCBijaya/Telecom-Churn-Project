@@ -27,3 +27,28 @@ To run this project on your local machine, follow these steps:
 
    ```bash
    git clone https://github.com/KCBijaya/Telecom-Churn-Project.git
+
+2.  Install required dependencies:
+
+This project requires Python and the following libraries:
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+You can install them by running the following command:
+pip install -r requirements.txt
+
+3. Run the project:
+
+After setting up the dependencies, you can start running the analysis and models by executing the Python scripts in the respective folders (Data_Preparation and Clustering_Analysis).
+###  **Usuage**
+Data_Preparation: Preprocess the dataset and create training and testing sets for model training and evaluation.
+
+Clustering_Analysis: Perform clustering analysis using the K-Means algorithm and visualize the resulting clusters to segment customers meaningfully.
